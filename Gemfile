@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'haml'
 gem 'haml-rails'
 
+gem 'foundation-rails'
+gem 'autoprefixer-rails'
+
 # Authentication
 gem 'devise'
 gem 'devise-i18n'
