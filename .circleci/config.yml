@@ -14,8 +14,8 @@ jobs:
           RAILS_ENV: test
       - image: postgres:11.4
         environment:
-          POSTGRES_USER: homechefapp
-          POSTGRES_DB: homechefapp_test
+          POSTGRES_USER: homechef
+          POSTGRES_DB: homechef_test
           POSTGRES_PASSWORD: ""
 
       # Specify service dependencies here if necessary
