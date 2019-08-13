@@ -53,6 +53,8 @@ group :development, :test do
   # Required for better_errors
   gem 'binding_of_caller'
 
+  gem 'factory_bot_rails'
+
   # nicer matchers for rspec, 'should include' etc.
   gem 'shoulda-matchers'
 
@@ -70,7 +72,6 @@ end
 
 group :test do
   # A library for setting up Ruby objects as test data.
-  gem 'factory_bot_rails'
   gem "rspec_junit_formatter"
 
   # Clean the test database after tests
